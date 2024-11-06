@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppThread
 {
-    internal class OurClass
+    public static class OurClass
     {
+        public static void Display()
+        {
+            for(int i=0; i<10; i++)
+            {
+                Console.WriteLine(i);
+            }
+        }
     }
 }
